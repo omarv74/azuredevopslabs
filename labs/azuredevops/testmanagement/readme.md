@@ -50,7 +50,7 @@ In this exercise, you will learn how to create and manage test plans, test suite
 
     ![](images/004.png)
 
-1. In the test suite, we can see all of the linked work items, which happen to be the test cases.
+1. In the **Related Work** panel, we can see all of the linked work items, which happen to be test cases.
 
     ![](images/005.png)
 
@@ -58,7 +58,7 @@ In this exercise, you will learn how to create and manage test plans, test suite
 
     ![](images/006.png)
 
-1. Set the **Link type** to **Parent** and search for **"credit card"**.
+1. Set the **Link type** to **Parent** and search for **"Credit Card"** (case sensitive).
 
     ![](images/007.png)
 
@@ -83,11 +83,11 @@ In this exercise, you will learn how to create and manage test plans, test suite
 <a name="Ex1Task2"></a>
 ### Task 2: Managing Tests ###
 
-1. Sometimes a set of test cases should be run in a specific order to maximize efficiency. Click **Order tests** to specify the order these test cases should be run.
+1. Sometimes a set of test cases should be run in a specific order to maximize efficiency. Click **Define** to make sure your are on the proper tab/page to edit your Test Suite .
 
     ![](images/012.png)
 
-1. While these test cases could be run separately to confirm the behavior, it probably makes more sense to run the test case that rejects invalid cards first. Then, the tester can confirm that a valid card can be saved, followed by the test case for editing a saved card. Drag and drop the second test case above the first and click **Done**.
+1. While these test cases could be run separately to confirm the behavior, it probably makes more sense to run the test case that rejects invalid cards first. Then, the tester can confirm that a valid card can be saved, followed by the test case for editing a saved card. Drag and drop the second test case above the first one.
 
     ![](images/013.png)
 
@@ -95,9 +95,17 @@ In this exercise, you will learn how to create and manage test plans, test suite
 
     ![](images/014.png)
 
+1. Click **Execute** to switch to the Execute tab/page, then toggle Full screen mode.
+
+    ![](images/015-a.png)  
+
 1. Another significant aspect of testing has to do with the environment each test is run in. For this web app, the browser and operating system are key considerations. Right now all the tests only use one configuration: Windows 10.
 
     ![](images/015.png)
+
+1. Click the control to toggle Full screen mode again, to go back to the normal view.
+
+    ![](images/015-b.png)
 
 1. Select the **Configurations** tab.
 
@@ -155,14 +163,14 @@ In this exercise, you will learn how to create and manage test plans, test suite
 
     ![](images/029.png)
 
-1. Notice that each test case has been duplicated with an additional configuration for **iPhone X**. Now each environment can be tested and tracked separately.
+1. While on the **Execute** tab, scroll right as needed to show the **Configuration** column. Notice that each test case has been duplicated with an additional configuration for **iPhone X**. Now each environment can be tested and tracked separately.
 
     ![](images/030.png)
 
 <a name="Ex1Task3"></a>
 ### Task 3: Authoring Tests ###
 
-1. Expand the dropdown next to the test plan and select **New static suite.** A **static suite** of test cases is a suite where the cases have been manually assigned. You can also create suites based on common requirements (**requirement-based suite**) or a query of test cases and/or work items (**query-based suite**).
+1. Create a new **Static suite.** A **static suite** of test cases is a suite where the cases have been manually assigned. You can also create suites based on common requirements (**requirement-based suite**) or a query of test cases and/or work items (**query-based suite**).
 
     ![](images/031.png)
 
@@ -170,11 +178,11 @@ In this exercise, you will learn how to create and manage test plans, test suite
 
     ![](images/032.png)
 
-1. Expand the dropdown next to the newly created suite and select **New requirement-based suite**.
+1. Under the newly created suite create a new **Requirement based suite**.
 
     ![](images/033.png)
 
-1. You could customize the query used to specify which requirements are retrieved, but just leave the defaults and click **Run query**. Locate and select the three product backlog items related to shipping. Click **Create suites** to create a test suite for each.
+1. You could customize the query used to specify which requirements are retrieved, but just leave the defaults and click **Run query**. Locate and select (Ctrl-Click) the three product backlog items related to shipping. Click **Create suites** to create a test suite for each.
 
     ![](images/034.png)
 
@@ -182,7 +190,7 @@ In this exercise, you will learn how to create and manage test plans, test suite
 
     ![](images/035.png)
 
-1. While you can create test cases one at a time, it's sometimes easier to use a grid layout to quickly add many test cases. In the test cases panel, select **New \| New test case using grid**.
+1. While you can create test cases one at a time, it's sometimes easier to use a grid layout to quickly add many test cases. In the test cases panel, select **Add test cases using grid**.
 
     ![](images/036.png)
 
@@ -206,7 +214,7 @@ In this exercise, you will learn how to create and manage test plans, test suite
 
     ![](images/041-2.png)
 
-1. Press **Esc** to close the dialog.
+1. Press **Esc** or click **Cancel** to close the dialog.
 
 <a name="Exercise2"></a>
 ## Exercise 2: Authoring, Running and Analyzing Manual Tests ##
@@ -259,15 +267,15 @@ In this exercise, you will learn how to create a manual test plan and populate i
 
     ![](images/049.png)
 
-1. Expand the dropdown next to the test plan and select **New static suite**.
+1. Create a new **Static suite**.
 
-    ![](images/050.png)
+    ![](images/031.png)
 
 1. Name the new suite **"End-to-end tests"** and press **Enter**.
 
     ![](images/051.png)
 
-1. From the **Tests** tab, select **New \| New test case** to create a new test case.
+1. From the **Tests** pane, click **New test case** to create a new test case.
 
     ![](images/052.png)
 
@@ -459,7 +467,7 @@ In this exercise, you will learn how to create a manual test plan and populate i
 
     ![](images/085.png)
 
-1. Double-click the case to open it in the test case editor.
+1. Make sure you have the **Define** tab selected and double-click the case to open it in the test case editor.
 
     ![](images/086.png)
 
